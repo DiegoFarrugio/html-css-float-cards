@@ -1,0 +1,76 @@
+body{
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.big_container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(214, 60, 86);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p{
+    text-align: center;
+}
+
+.container{
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+   
+}
+
+.container-special > *{
+    float: left;
+    width: calc((100% / 3) - 40px);
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.left-floating-image{
+    float: left;
+    width: 100px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.name{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mansione{
+    color: white;
+    font-size: 12px;
+}
+
+.email{
+    font-size: 11px;
+    color: #68c3e8
+}
+
+.information > *{
+    padding-top: 10px;
+}
